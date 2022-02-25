@@ -9,4 +9,9 @@ namespace DependencyInjectionUsingTrue
     public class CarMechanic
     {
     }
+    public interface ICarMechanic
+    {
+
+    }
+
 }
