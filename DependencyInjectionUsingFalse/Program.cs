@@ -7,8 +7,6 @@ namespace DependencyInjectionUsingFalse
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-
         }
     }
 }
