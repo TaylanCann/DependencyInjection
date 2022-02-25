@@ -16,6 +16,15 @@ namespace DependencyInjectionUsingFalse
             ToyotaSupra toyotaSupra = new ToyotaSupra();
             toyotaSupra.changeWheels();
         }
+
+        public void headlightChange()
+        {
+            Nissan350Z nissan350Z = new Nissan350Z();
+            nissan350Z.headlightChange();
+
+            ToyotaSupra toyotaSupra = new ToyotaSupra();
+            toyotaSupra.headlightChange();
+        }
     }
 
     public class Car { }
@@ -24,7 +33,12 @@ namespace DependencyInjectionUsingFalse
     {
        public void changeWheels() 
         {
-            Console.WriteLine("WheelsChanged");
+            Console.WriteLine("Wheels Changed");
+        }
+
+        public void headlightChange() 
+        {
+            Console.WriteLine("Headlights Changed");
         }
     }
 
@@ -33,6 +47,10 @@ namespace DependencyInjectionUsingFalse
         public void changeWheels()
         {
             Console.WriteLine("WheelsChanged");
+        }
+        public void headlightChange()
+        {
+            Console.WriteLine("Headlights Changed");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace DependencyInjectionUsingTrue
     }
     public interface ICarMechanic
     {
-
+        public void 
     }
 
 }
