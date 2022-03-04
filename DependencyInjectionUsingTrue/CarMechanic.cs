@@ -26,7 +26,6 @@ namespace DependencyInjectionUsingTrue
     {
         public void changeWheels();
         public void headlightChange();
-
     }
 
     public class Car { }
